@@ -1,0 +1,172 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+    height: 193px;
+    width: 293px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.carousel-caption h2 {
+  font-family: 'Allan', cursive;
+  font-size: 80px;
+  line-height: 4;
+}
+
+h1, h2, h4{
+  font-family: 'Allan', cursive;
+}
+
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+#pig {
+  height: 300px;
+  width: 450px;
+}
+
+#millenium {
+  background-image: url("https://files.graphiq.com/2937/media/images/t2/Millennium_Force_828237.jpg");
+}
+
+.panel-body p {
+  opacity: 0;
+}
+
+#bizarro {
+  background-image: url("https://files.graphiq.com/2937/media/images/t2/Bizarro_828258.jpg");
+}
+
+#nitro {
+  background-image: url("https://files.graphiq.com/2937/media/images/t/Nitro_828261.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  opacity: .8;
+}
+
+#topthrill {
+  background-image: url("https://files.graphiq.com/2937/media/images/t2/Top_Thrill_Dragster_828245.jpg");
+}
+
+#eltoro {
+  background-image: url("https://files.graphiq.com/2937/media/images/t2/El_Toro_828273.jpg");
+}
+
+#apollochariot {
+  background-image: url("https://files.graphiq.com/2937/media/images/t2/Intimidator_305_828267.jpg");
+}
+
+#texas {
+  background-image: url("https://files.graphiq.com/2937/media/images/t2/New_Texas_Giant_828319.jpg");
+  background-size: 100%;
+  background-position: bottom;
+}
+
+#intimdator {
+  background-image: url("https://files.graphiq.com/2937/media/images/t2/Intimidator_828773.jpg");
+  background-position: bottom;
+
+}
+
+#voyage {
+  background-image: url("https://files.graphiq.com/2937/media/images/t2/The_Voyage_828301.jpg");
+
+}
